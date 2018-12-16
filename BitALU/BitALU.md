@@ -1,15 +1,3 @@
-# BitALU
+# BitRegister
 
-Single bit ALU designed using 2N3904 transistors and 10K resistors. Each board is designed to handle the following operations:
-
-*	Addition
-*	Subtraction
-*	AND
-*	XOR
-*	OR
-*	NOT
-*	Left Shift
-*	Right Shift
-*	Copy B
-
-The circuit is designed to allow multiple 1 bit ALUs to be chained together to form a full 8-bit ALU. With some additional circuitry the ALU can be used as part of a digital computer.
+Single bit register, used for B - E registers. This latches on the rising clock edge and has two tri-state output gates, one to allow writing to the data line, one to write to the address line of our computer.
